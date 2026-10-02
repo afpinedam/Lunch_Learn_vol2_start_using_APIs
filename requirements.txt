@@ -1,17 +1,8 @@
 huggingface-hub
 Jinja2
 jsonschema
-matplotlib
-numpy
-openai
-pandas
 pydantic
 pytest
-PyYAML
-scikit-learn
-scipy
-pypdf
-numpy
 python-dotenv
 ollama
 flask
