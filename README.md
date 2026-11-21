@@ -43,8 +43,7 @@ Necesitas Python, [Ollama](https://ollama.com/) en ejecución y el modelo `llama
 
 ```bash
 pip install -r requirements.txt
-pip install uvicorn
-ollama pull llama3
+ollama pull llama3:8b
 python -m uvicorn Fast_API_demo:app --reload
 ```
 
