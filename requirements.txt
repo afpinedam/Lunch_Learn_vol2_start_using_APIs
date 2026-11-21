@@ -8,3 +8,4 @@ ollama
 flask
 fastapi
 requests
+uvicorn
