@@ -16,7 +16,7 @@ def summarize(payload: dict):
     response = requests.post(
         "http://localhost:11434/api/generate",
         json={
-            "model": "llama3:8b",
+            "model": "llama3.2:3b",
             "prompt": f"Resume: {payload['text']}",
             "stream": False
         }
