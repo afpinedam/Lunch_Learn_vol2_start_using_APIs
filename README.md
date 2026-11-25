@@ -39,11 +39,11 @@ Algunos códigos de respuesta comunes son `200` (correcto), `201` (recurso cread
 
 ## Ejecutar la demo local de FastAPI
 
-Necesitas Python, [Ollama](https://ollama.com/) en ejecución y el modelo `llama3` disponible localmente. Desde la raíz del repositorio:
+Necesitas Python, [Ollama](https://ollama.com/) en ejecución y el modelo `llama3.2` disponible localmente. Desde la raíz del repositorio:
 
 ```bash
 pip install -r requirements.txt
-ollama pull llama3:8b
+ollama pull llama3.2:3b
 python -m uvicorn Fast_API_demo:app --reload
 ```
 
