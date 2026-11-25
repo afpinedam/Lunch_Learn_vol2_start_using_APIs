@@ -47,7 +47,7 @@ ollama pull llama3.2:3b
 python -m uvicorn Fast_API_demo:app --reload
 ```
 
-Con el servidor ejecutándose, abre otra terminal y ejecuta:
+Con el servidor ejecutándose, ejecuta:
 
 ```bash
 python Test_APIs.py
